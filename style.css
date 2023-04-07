@@ -1,0 +1,377 @@
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: sans-serif;
+}
+/* navbar */
+nav {
+  font-family: 'Nova Mono', sans-serif;
+  color: #000;
+  background-color: #fff;
+  box-shadow: 0 0 5px grey;
+}
+.nav-link{
+  color: #000 !important;
+}
+.nav-link:hover{
+  color: #1A9AB6 !important;
+}
+.navbar-brand img{
+  width: 130px;
+  margin-left: 50px;
+}
+li{
+  margin-left: 40px;
+}
+ul{
+ 
+  margin-right: 200px;
+}
+/* home section */
+main{
+ height: 50rem;
+}
+main div{
+  padding-top: 10rem;
+  width: 100%;
+}
+.content_home h1{
+  font-size: 49px;
+  width: 60%;
+  margin-left: 50px;
+  margin-top: 50px;
+  
+}
+.content_home h3{
+  font-size: 25px;
+  width: 80%;
+  margin-left: 50px;
+}
+.img_home img{
+  width: 90%;
+}
+main button a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 35px;
+
+}
+main button{
+  position: relative;
+  left: 100px;
+  top:  50px;
+}
+
+
+/* Over ons section  */
+#overons{
+  height: 65rem;
+}
+#overons img{
+  
+  margin-top: 10rem;
+  width: 70%;
+  margin-left: 100px;
+}
+#overons h2{
+  margin-top: 12rem;
+  font-family: 'Nova Mono', sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  margin-left: 50px;
+}
+#overons p{
+  margin-top: 50px;
+  width: 50%;
+  font-size: 25px;
+  margin-left: 50px;
+}
+#overons a button{
+  color: #fff;
+  font-size: 35px;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+/* diensten section */
+#diensten{
+  background-color: #F9F9F9;
+  height: 60rem;
+}
+#diensten h2{
+  font-family: 'Nova Mono', sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10rem;
+}
+#diensten div{
+  background-color: #fff;
+   width: 20%;
+  height: 30rem;
+  border-radius: 10px;
+}
+#diensten div img{
+  margin-left: 30%;
+  margin-top: 40px;
+  width: 30%;
+  
+}
+#diensten div h4{
+  font-family: 'Nova Mono', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #1A9AB6;
+}
+#diensten div p{
+  color: #505050;
+  width: 70%;
+  margin-left: 15%;
+  font-size: 18px;
+}
+#dienst1{
+  margin-left: 16%;
+}
+#dienst2{
+  margin-left: 3.5%;
+}
+#dienst3{
+  margin-left: 3.5%;
+}
+
+/* realisaties section */
+#realisaties{
+  width: 45%;
+  margin: 0 auto;
+}
+#realisaties h2, h4{
+  text-align: center;
+  font-family: 'Nova Mono', sans-serif;
+}
+#realisaties h2{
+  margin-top: 8rem;
+  font-size: 40px;
+  font-weight: bold;
+}
+#realisaties h4{
+  margin-bottom: 20px;
+  color: #1A9AB6;
+}
+.werk1{
+  margin-top: 8rem;
+  width:70%;
+  height: 30rem;
+}
+.werk1 img, p{
+  margin-bottom: 20px;
+}
+.werk1 button{
+  font-size: 20px;
+  margin-left: 25%;
+}
+.werk2{
+  margin-top: 35rem;
+  width:70%;
+  height: 30rem;
+}
+.werk2 img, p{
+  margin-bottom: 20px;
+}
+.werk2 button{
+  font-size: 20px;
+  margin-left: 25%;
+}
+.werk3{
+  width:70%;
+  height: 30rem;
+  margin-bottom: 2rem;
+}
+.werk3 img, p{
+  margin-bottom: 20px;
+}
+.werk3 button{
+  font-size: 20px;
+  margin-left: 25%;
+}
+/* contact section */
+#contact{
+  background-color: #F9F9F9;
+  text-align: center;
+  height: 30rem;
+}
+#contact h2{
+  padding-top: 2rem;
+  font-size: 40px;
+}
+#contact h3{
+  margin: 0 auto;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-size: 30px;
+  width: 50%;
+  color: #757575;
+}
+#contact button{
+  text-decoration: none;
+  color: #fff;
+  font-size: 35px;
+}
+/* footer section */
+footer img{
+  display: inline;
+  margin-right: 20px;
+}
+footer p{
+  display: inline;
+}
+footer{
+  margin-top: 3rem;
+}
+/* for ipad */
+@media only screen and (max-width: 990px) {
+  main{
+    height: 80rem;
+   }
+   #overons img{
+    width: 110%;
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+  #overons{
+    height: 66rem;
+  }
+  #overons div p{
+    width: 80%;
+    font-size: 20px;
+  }
+  .img_home img{
+    position: absolute;
+    top: 52rem;
+    margin-left: 30px;
+  }
+  .img_home{
+    height: 20rem;
+  }
+  .content_home h3{
+    width: 70%;
+    margin-right: 20px;
+  }
+  .content_home h1{
+    width: 70%;
+  }
+  .navbar-toggler{
+    margin-right: 12%;
+  }
+  #overons div img{
+    width: 110%; 
+    padding-top: 8rem;
+  }
+  #diensten div{
+     width: 70%; 
+     margin: 0 auto;
+  }
+  #diensten{
+    background-color: #F9F9F9;
+    height: 110rem;
+  }
+  .werk2{
+    margin-top: 8rem;
+  }
+  .werk3{
+    margin-top: 8rem;
+  }
+  #contact{
+    background-color: #F9F9F9;
+    text-align: center;
+    height: 36rem;
+  }
+  #contact h3{
+    width: 80%;
+  }
+  footer img{
+    width: 23%;
+  }
+}
+/* for phone */
+@media only screen and (max-width: 500px) {
+  main{
+    height: 60rem;
+   }
+  .img_home img{
+    position: absolute;
+    top: 62rem;
+    margin-left: 20px;
+  }
+  .img_home{
+    height: 20rem;
+  }
+  .content_home h3{
+    width: 85%;
+    margin-right: 20px;
+    font-size: 25px;
+    margin-left: 10px;
+  }
+  .content_home h1{
+    width: 100%;
+    margin-left: 10px;
+    font-size: 40px;
+  }
+  main button{
+    position: relative;
+    left: 50px;
+    top:  50px;
+  }
+  #overons{
+    height: 110rem;
+  }
+  #overons div img{
+    width: 80%; 
+    padding-top: 20rem;
+    margin-left: 50px;
+  }
+  #overons h2{
+    margin-top: 0;
+    font-size: 35px;
+  }
+  #overons a button{
+    margin-left: 60px;
+  }
+  #overons div {
+    height: 20rem;
+  }
+  #diensten h2{
+    margin-top: 3rem;
+    font-size: 35px;
+  }
+  #diensten div{
+    width: 80%; 
+ }
+ #diensten div p{
+  width: 80%; 
+}
+#realisaties{
+  width: 70%;
+}
+#realisaties h4{
+  margin-left: 70px;
+}
+#realisaties p{
+  margin-left: 30px;
+  width: 100%;
+}
+#realisaties button{
+  width: 100%;
+}
+#contact{
+  height: 35rem;
+}
+#contact h3{
+  font-size: 20px;
+  width: 90%;
+}
+footer img{
+  width: 32%;
+}
+}
