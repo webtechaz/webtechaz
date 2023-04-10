@@ -225,6 +225,7 @@ footer img{
 }
 footer p{
   display: inline;
+  font-size: 10px;
 }
 footer{
   margin-top: 3rem;
