@@ -176,6 +176,9 @@ main button{
   width:70%;
   height: 30rem;
 }
+.werk2 img, .werk3 img{
+  width: 100%;
+}
 .werk2 img, p{
   margin-bottom: 20px;
 }
@@ -190,6 +193,9 @@ main button{
 }
 .werk3 img, p{
   margin-bottom: 5rem;
+}
+.werk3 h4, p{
+ margin-top: -3rem;
 }
 .werk3 button{
   font-size: 20px;
@@ -283,6 +289,9 @@ footer{
   .werk3{
     margin-top: 8rem;
   }
+  .werk2 img, .werk3 img{
+    width: 120%;
+  }
   #contact{
     background-color: #F9F9F9;
     text-align: center;
@@ -364,6 +373,9 @@ footer{
 }
 #realisaties button{
   width: 100%;
+}
+.werk2 img, .werk3 img{
+  width: 150%;
 }
 #contact{
   height: 35rem;
